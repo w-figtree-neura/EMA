@@ -451,7 +451,7 @@
 				<Property Name="INST_productName" Type="Str">EMA</Property>
 				<Property Name="INST_productVersion" Type="Str">1.1.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
+				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NeuRA</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.neura.edu.au</Property>
 				<Property Name="MSI_distID" Type="Str">{0D9E7ECC-7B52-496B-903C-1DBF69594AAA}</Property>
