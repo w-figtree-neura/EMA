@@ -1,0 +1,58 @@
+25/05/2016 4:36:41 PM
+[General]
+Project: C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\EMA 2010a.lvproj
+Target: My Computer
+Build Specification: EMA2010 DC Daemon
+OS: Windows NT 6.1
+
+[Open Top Level VIs]
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\src\comm\double click\DC_Daemont.vi	27/10/2014 2:51:49 PM
+
+
+[Source Files]
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\src\comm\double click\double click.lvlib	27/10/2014 2:51:49 PM	1.0.0.0
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\whitespace.ctl	26/01/2015 2:36:22 AM	15
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Trim Whitespace.vi	26/01/2015 2:36:25 AM	33
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Search and Replace Pattern.vi	26/01/2015 4:27:16 AM	34
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\picture\picture.llb\Get Text Rect.vi	26/01/2015 4:39:44 AM	38
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\GetHelpDir.vi	26/01/2015 2:36:19 AM	4
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\BuildHelpPath.vi	26/01/2015 2:36:19 AM	5
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi	26/01/2015 2:49:13 AM	99
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\DialogType.ctl	26/01/2015 2:36:22 AM	8
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Set String Value.vi	26/01/2015 2:36:19 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\GetRTHostConnectedProp.vi	26/01/2015 2:36:19 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Error Code Database.vi	26/01/2015 2:36:25 AM	36
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Find Tag.vi	26/01/2015 2:36:19 AM	9
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\ErrWarn.ctl	26/01/2015 2:36:19 AM	19
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\TagReturnType.ctl	26/01/2015 2:36:19 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Check Special Tags.vi	26/01/2015 2:36:23 AM	22
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\event_ctls.llb\eventvkey.ctl	26/01/2015 2:36:23 AM	10
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Set Bold Text.vi	26/01/2015 2:36:19 AM	18
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Format Message String.vi	26/01/2015 2:36:19 AM	197
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\DialogTypeEnum.ctl	26/01/2015 2:36:23 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\miscctls.llb\LVRectTypeDef.ctl	26/01/2015 2:36:19 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Convert property node font to graphics font.vi	26/01/2015 2:36:19 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Longest Line Length in Pixels.vi	26/01/2015 2:36:23 AM	29
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\miscctls.llb\LVBoundsTypeDef.ctl	26/01/2015 2:36:19 AM	2
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Get String Text Bounds.vi	26/01/2015 2:36:23 AM	3
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Three Button Dialog CORE.vi	26/01/2015 2:36:25 AM	588
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Three Button Dialog.vi	26/01/2015 2:36:19 AM	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Not Found Dialog.vi	26/01/2015 2:36:23 AM	12
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Clear Errors.vi	26/01/2015 4:27:18 AM	24
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Details Display Dialog.vi	26/01/2015 2:36:23 AM	310
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\General Error Handler Core CORE.vi	26/01/2015 2:36:23 AM	347
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\General Error Handler.vi	26/01/2015 4:27:10 AM	201
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Simple Error Handler.vi	26/01/2015 4:27:10 AM	44
+C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Platform\system.llb\System Exec.vi	26/01/2015 4:27:10 AM	95
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\src\comm\double click\DC_Handler.vi	27/10/2014 2:51:49 PM	7
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\src\comm\double click\DC_Daemont.vi	27/10/2014 2:51:49 PM	33
+
+[Output File Version]
+EMA2010_DC_Daemon.exe	1.0.0.0
+
+[Output Files]
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\builds\EMA2010_DC_Daemon.exe	25/05/2016 4:36:44 PM
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\builds\EMA2010_DC_Daemon.aliases	25/05/2016 4:36:43 PM
+C:\Users\w.figtree\Desktop\Work\4. Projects\3. In Progress Engineering Projects\EMA\builds\EMA2010_DC_Daemon.ini	27/10/2014 2:01:12 PM
+
+25/05/2016 4:36:44 PM

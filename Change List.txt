@@ -1,0 +1,163 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 04/04/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Main - Removed no-op event case
+2) Main - Altered default filter settings to FIR and Interpolate
+3) Main - Maximise on start
+4) Main - Disabled default runtime menu shortcuts
+5) Main - Simplified Paint delete process
+6) Main - Fixed paint delete bug causing Impulse Axis Fixation to be lost at end of deletion
+7) Saccade - Removed Quit button and replaced with panel close event
+8) Main - Middle mouse now pans in impulse plot rather than activating paint delete
+9) Main - Replaced "Generate New Impulse Plot" implementation using the Graph Manager class. May have broken spline functionality?
+10) Main - Trace number now used to show highlighted impulses rather than individual impulses.
+11) Main - Traces are now highlighted (embiggened) when the cursor snaps to them.
+12) Main - No. Imp in main data now updates correctly on "Generate New Impulse Plot".
+13) Main - Pressing delete or escape will now delete the highlighted impulse (not neccissarily the cursor snapped impulse).
+14) Main - Gain and Phase shortcut changed to Ctrl+G.
+15) Main - Pressing the "Return" / "Enter" key no longer selects the "De-Saccading" tab.
+16) Main - Mean + SD impulse plot now handled by "Generate New Impulse Plot" case and the Graph Manager Class.
+17) Main - Mean button now toggles rather than operating as a push button.
+18) Main - No. Imp now updated in "Delete Impulse" state.
+19) Main - Trace value is kept belo No. Impulses in "Delete Impulses" state, after deletion.
+20) Graph Manager - Added input "Auto Defer Panel Updates?" to "Draw Normal" VI and "Draw Mean" VI to allow panel updates to be managed outside the Graph Manager class.
+21) Graph Manager - Added "Highlight Trace" VI which redraws a trace in all channels with increased thickness.
+22) Graph Manager - Added "Channel out" to "Set Color" VI.
+23) Graph Manager - Added channel visibility data including new VI "Set Visibility" and modifications to drawing VIs and "Init Look" VI.
+24) Main - Increased size of cursor position box on Impulse plot.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 29/03/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) JHOC - Fixed default time/impulse channels to show head and left eye velocity
+2) JHOC - Window closes with the Windows 'x' rather than a Labview close button.
+3) Main - Added mouse wheel zoom to the impulse plot. Shift key speeds zoom, Ctrl key does horizontal only zoom, Alt key does vertical only zoom.
+4) Build - Updated to Labview 2016
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 31/01/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Main - Included a tool selection check for paint delete. This prevents trace deletion when the user is trying to zoom in.
+2) EyeSeeCam - Fixed mistyped variable name which caused eye calib path to always be invalid
+3) EyeSeeCam - Added a 'Zero All' button to the manual gyro offset section
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 19/01/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) EyeSeeCam - Changed execution of load script to be more efficient.
+2) EyeSeeCam - Restored the ability to simply load whatever eye pos/vel data is in a recorded file as per older versions of EMA
+3) EyeSeeCam - Removed autopopulation of calibration files. It was confusing and often incorrect or simply failed.
+4) EyeSeeCam - Removed the need to manually specify a detection threshold for head pitch/roll axes alignment. The threshold is now calculated at the 75th percentile.
+5) EyeSeeCam - Improved the Settings tab GUI to reflect the changes in this update.
+6) EyeSeeCam - Script no longer uses the MATLAB rotz() function which was causing distribution problems.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 17/01/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) EyeSeeCam - Included eye yaw angle correction to fit Fick Angle coordinate system. This should only affect data with significant pitch.
+2) Main - About tab no longer lists the version as 2010
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 16/11/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) EyeSeeCam - Included manual head velocity offset input
+2) EyeSeeCam - Support for older calibration files is now avaialable (these files did not have sensor_velo_median). Manual input must be used.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 26/10/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Gain Report - Default Analysis is now Median/Mean
+2) Gain Report - Included analysis preset options
+3) Gain Report - Included LARP/RALP info in Excel output
+4) Gain Report - Changed VI window name to "HIT Report" and made the window open in the centre of the primary monitor
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 05/10/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) EyeSeeCam Plugin - Included a Head Velocity Calibration Threshold control
+2) EyeSeeCam Plugin - When calibrating head velocity the threshold is now adjustable using the FP control
+3) EyeSeeCam Plugin - NaN head velocities will no longer go through the entire calibration calculation routine
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 05/10/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) EyeSeeCam Plugin - Made the 'Idle' state occur on timeout rather than having to explicitly request it
+2) EyeSeeCam Plugin - Included a Head Calibration File to align Pitch/Roll Axes in LARP/RALP tests
+3) EyeSeeCam Plugin - Renamed impulse test types 'YAW' and 'YAW / LARP / RALP'
+4) EyeSeeCam Plugin - Removed 'Cancel' Button. Dialog can still be cancelled by closing the dialog window.
+5) EyeSeeCam Plugin - Reworked State Machine to simplify processing stages.
+6) EyeSeeCam Plugin - New Load script performs PItch / Roll Axis Alignment when the 'YAW / LARP / RALP' test type is selected
+7) EyeSeeCam Plugin - Removed unused channels relating to eye Roll/LARP/RALP
+8) EyeSeeCam Plugin - Improved Default Impulse / Time Plot selections. These now modify themselvs based on the selected test type
+9) Main - Paint Delete no longer operates on invisible plot data
+10) Main - Changed 'Delete Impulse' state to delete multiple impulses at once.
+11) Main - Included a new 'Snap Impulse Cursor' state to handle all snapping cases. Removed duplicated code for this senario and replaced with a call to this state.
+12) Main - Fixed a number of bugs relating to the update of the cursor XY position controls
+13) Main - Pressing 'ESC' or 'Delete' no longer deletes the first impulse when paint delete is active
+14) Main - Batch list now updates after explicitly saving an LVS file
+15) Main - Batch list now updates to include LVS files in the experiment directory after loading a new batch log
+16) Main - When saving an LVS file the user is directed to the experiment path if the LVS save path is non-existant
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 22/09/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Core - New VI "Load LVS" loads LVS files and includes support for historic LVS files
+2) Core - New VI "Save LVS" saves LVS files for the current EMA version
+3) Main - Removed old LVS save/load code replacing it with the new Save/Load VIs
+4) Main - Rmoved an immense amount of duplicated code in the "Check for Batch LVS" state
+5) Main - temp LVS files are no longer created for LVS files.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 20/09/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Main - File list now highlights the whole selected row
+2) Main - Added a Delete Temp LVS Button. This calls the new Delete X and Delete Y states.
+3) Main - Added state "Delete Batch List" which deletes the batch_log.xml file used to track data files and corresponding temp LVS files
+4) Main - Added state "Delete Temporary LVS" which deletes the tmp_batch_lvs directory and its contents
+5) Main - Included "Make Batch List" state in Initialise so that the file list is populated correctly on startup
+6) Main - Calibration Name is now read from the last session data
+7) Main - Calibration Name is now written to session data in "Quit" state
+8) Load LVS EMA 2010.vi - Now passes the file reference through for easier file reference handling
+9) Main - Fixed bugs after calling "Load LVS EMA 2010.vi" where file references were never closed
+10) Main - Fixed bugs where file references were never closed in LVS and Batch related states
+11) Main - The correct file is now selected in file list when loading a previous session on startup
+12) Gain Report - Included Impulse and Impulse Group Gain calculation methods. Impulse -> (Max, Mean, Median). Group -> (Mean, Median).
+13) Gain Report - Included Gain Methods in excel report
+14) Gain Report - Excel report now uses the Head Impulse sheet and not the transient sheet.
+15) Gain Report - Changed check for re-analysis from a comparison of impulse parameters to a change event which includes both impulse parameters and the gain methods.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 16/09/2016
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Change List - First commit which has a change list
+2) Gain and Phase - Included colour pickers for plots (These are not remembered and will be reset on re-analysis)
+3) EyeSeeCam Plugin - Fixed bug which would incorrectly think a calibration file had not been selected
+4) EyeSeeCam Plugin - Calibration file is now auto-populated when the user selects a data file
+5) EyeSeeCam Plugin - Calibration file selected by the user is now correctly remembered for batch processing
+6) Main - Selected calibration file has been included alongside the data filename (ONLY EyeSeeCam supports this at the moment)
+7) Main - Fixed bug where paint2delete would delete traces when toggled on and off
+8) Main - Allowed users to delete traces with the 'delete' key as well as the 'escape' key

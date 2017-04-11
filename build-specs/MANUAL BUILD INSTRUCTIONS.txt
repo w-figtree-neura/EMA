@@ -1,0 +1,8 @@
+Open EMA 2010 Project
+Under Build Specifications...
+   1. Build EMA2010 DC Daemon
+   2. Build Eye Movement Analyser
+   3. Build EMA 2010 installer
+
+Install EMA by first uninstalling old versions then copying the build volume to the PC and running setup.exe
+
