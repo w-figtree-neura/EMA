@@ -1,5 +1,24 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 28/04/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Project - Removed "Mean between cursors" VI in plugins.
+2) Project - Removed some unused control definitions (scroll lock, etc.)
+3) Main - Removed "Plot generator plugin" state and FP button.
+4) Project - Removed unused "Plot generator" plugin.
+5) Main - Removed FP button "Button Mean of Part Plugin" and asociated cases.
+6) Project - Removed unused "Position Mean" plugin.
+7) Main - Removed "Example Plugin" state.
+8) Project - Removed template plugin.
+9) Project - Removed res/controls data including unused "impuls graph" x control.
+10) Project - Removed unused "class-palette.mnu" from res folder.
+11) Project - Added src/UI folder to hold all UI module code and definitions.
+12) Saccade Analyser - First commit
+13) Main - Fixed "Generate Plot" action not rescaling the impulse graph.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 10/04/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
