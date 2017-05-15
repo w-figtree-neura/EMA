@@ -1,5 +1,29 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 15/05/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Saccade Analyser - Added number of impulses and number of saccades to the saccade export data.
+2) Main - Fixed issue where presssing the 'Time Constant' button would loose EMA's internal data.
+3) Main - Grouped reporting plugin buttons.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 05/05/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Saccade Analyser - Removed toolbar while running.
+2) Saccade Analyser - X scale set to autoscale.
+3) Saccade Analyser - Saccades now have a sequence number calculated.
+4) saccade Analyser - Added Impuse number and sequence number columns to saccade MCLB.
+5) Saccade Analyser - Selected saccade impulse siblings are highlited on the graph wih dotted lines.
+6) Saccade Analyser - Included seperate export options -> Summary and Saccades.
+7) Saccade Analyser - Enter keypress changed to export both summary data and individual saccade data.
+8) Saccade Analyser - Chenging "Impulse Plane" now sets "Impulse Direction" to Positive if "Auto Select Channels?" is checked.
+9) Saccade Analyser - Saccade MCLB now has focus after export.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 28/04/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
