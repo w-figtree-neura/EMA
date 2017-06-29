@@ -9,6 +9,12 @@
 4) Main - Fixed bug in 'Delete Impulse.vi' which would delete an impulse when plot number was greater than the total number of impulses available.
 5) Main - Removed #Imp update code from 'Delete Impulse' state. This is updated by generating a new impulse plot.
 6) Main - Fixed Load LVS asking to replace files.
+7) Main - Seperated Generate Impulse Plot Code into multiple states for future work. This seems to have also fixed a number of rescaling and redrawing bugs. Hurray!
+8) Main - Highlighted tracereset to 0 on Plane/Direction change and Generate Impulse.
+9) JHOC - Default channel 1 changed from Hx Velocity to Hz velocity
+10) JHOC - Default LARP/RALP channels now visible
+11) Saccade Analyser - Dialog centers on open
+12) Saccade Analyser - Saccade table is given key focus on open
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
