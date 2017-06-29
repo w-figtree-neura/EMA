@@ -1,5 +1,17 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: XX/05/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Saccade Analyser - Changed detect saccade routine to test each point for the full condition set rather than iterating through a state machine. This fixed an issue where saccades could not be stected immediately after one another.
+2) Main - Removed 'Left' key shortcut for iterating through the batch log.
+3) Main - Added 'Up/Down' key shortcuts for incrementing/decrementing the highlighted impulse.
+4) Main - Fixed bug in 'Delete Impulse.vi' which would delete an impulse when plot number was greater than the total number of impulses available.
+5) Main - Removed #Imp update code from 'Delete Impulse' state. This is updated by generating a new impulse plot.
+6) Main - Fixed Load LVS asking to replace files.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 15/05/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
