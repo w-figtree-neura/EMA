@@ -15,7 +15,8 @@
 10) JHOC - Default LARP/RALP channels now visible
 11) Saccade Analyser - Dialog centers on open
 12) Saccade Analyser - Saccade table is given key focus on open
-
+13) Gain and Phase - Dialog centres on open
+14) Gain and Phase - All plot controls (inv/gain/offset) now factor into fits and calculations.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
 -- Date: 15/05/2017

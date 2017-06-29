@@ -7,7 +7,7 @@ Cache_Path[Path] Line0001 = "/C/Users/w.figtree/AppData/Local/Temp/AB_Cache_{FA"
 Cache_Path[Path] Line0002 = "B880E7-8F1C-49E0-8B20-19E0F595E914}.txt"
 
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "69,48,1020,459"
+ProjectExplorer.ClassicPosition[String] = "64,-1,1015,410"
 
 [SCC_ProjectConfigData]
 SCCCfgMode[String] = "NOSCC_PRJ"
