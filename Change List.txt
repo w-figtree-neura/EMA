@@ -1,6 +1,6 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
--- Date: XX/05/2017
+-- Date: 03/05/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
 1) Saccade Analyser - Changed detect saccade routine to test each point for the full condition set rather than iterating through a state machine. This fixed an issue where saccades could not be stected immediately after one another.
