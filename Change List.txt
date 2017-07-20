@@ -1,6 +1,26 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
--- Date: 03/05/2017
+-- Date: 20/07/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Main - "Batch Next" event now just increments the experiment files value with signalling allowing the experiment files change event to handle state machine changes.
+2) Main - Removed "Make Batch List" state.
+3) Main - Replaced both "Make Batch List" and Update Batch List" states with a new "Update Batch List" state.
+4) Main - Changed text on "Saccade Main Sequence" button to "Saccade Analysis"
+5) Main - Removed non-existant "COR" button and associated event case, state, and enum entry.
+6) Main - Removed non-existant "Delete Impulse" button and associated event case.
+7) Main - Removed non-existant "Stop" button and associated event case, state, and enum entry.
+8) Main - Added a 'no scaling' version of the "Generate New Impulse Plot" state and removed the latching fixed time/amplitude stuff in the mouse down impulse graph event.
+9) Main - Fixed a bug where cursor snapping was happening during paint delete causing everything to be deleted.
+10) Main - Removed non-existant "Undo Last 2" button.
+11) Main - Removed non-existant "Reset to Raw" button.
+12) Installer - Puts a shortcut on the all user's Desktops.
+13) Excel Class - Added Last written cell output to Write VI for chaining more complicated write operations. 
+14) Saccade Analyser - Fixed bug where numeric values were exported as text to Excel preventing calculations from working on the exported data.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 03/07/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
 1) Saccade Analyser - Changed detect saccade routine to test each point for the full condition set rather than iterating through a state machine. This fixed an issue where saccades could not be stected immediately after one another.
