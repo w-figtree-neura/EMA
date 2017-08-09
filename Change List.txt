@@ -1,5 +1,26 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 09/08/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) LVS - Save LVS VI modified to only take main EMA data structure.
+2) LVS - Load LVS Vi modified to handle new main EMA data structure.
+3) Main - Changed session handling to be LVS based data. Session data prior to this build will not be supported.
+4) Main - Removed Undo and Redo states.
+5) Main - Removed Impulse Positions control.
+6) Main - Removed Add History VI.
+7) Main - Removed Load LVS EMA 2010b VI and asociated disabled cases.
+8) LVS - fixed issue with selectedplane being forgotten by LVS files.
+9) Main - Removed prompt to save an image when saving an LVS file.
+10) LVS - files pushed to new 'EMA 2017a' version.
+11) Plugins - removed group analyser.
+12) Main - Removed second EMA data structure from main loop.
+13) Main - Removed states: Check Save Status, Group Analyser, ASCII, Acceleration, Process Coils, Export Data, Optotrak, Export Time Series Data, Human VOG
+14) Main - Removed a bunch of controls belonging to the above states.
+15) General - Disabled 'Auto Grow' on all VIs due to uncontrollable growth in main VI.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 04/08/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
