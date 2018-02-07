@@ -1,5 +1,16 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 22/09/2017
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Gain and Phase - Added a statistics selector to the Mean Fit tab
+2) Mean Fit - Added an 'individual traces' statistics option
+3) Replaced Unique Queue Name VI with a re-entrancy safe version
+4) Added Acceleration Channels to EyeSeeCam Plugin
+5) HIT Report - Unchecked visibility of third (red) channel. By default it now contains acceleration data now which is confusing.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 10/08/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
