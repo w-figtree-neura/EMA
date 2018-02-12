@@ -1,5 +1,18 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 12/02/2018
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Saccade Analyser - Added group statistics where summary stats are calculated acorss saccades grouped by sequence number.
+2) Saccade Analyser - Added group statistics export where group summary data is exported in a single row
+3) Saccade Analyser - Reactivated overall summary export.
+4) Saccade Analyser - Disabled and hid the Analyse button since the analysis is prompted whever a change is made this button was superfluous.
+5) Saccade Analyser - Added Export Group and Export Summary buttons to give access to the different export options.
+6) Saccade Analyser - Added a "Max Number of Groups" option to the Export tab so users can specify how many sequence groups should be considered.
+7) Saccade Analyser - Changed export sheet names so that a single root name is specified and various export options append their own name.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 22/09/2017
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
