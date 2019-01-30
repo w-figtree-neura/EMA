@@ -1,5 +1,18 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 30/01/2019
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Bug Fix: Mean and STD VI no longer runs with int.Max iterations when no data is passed to it, fixes crash in Gain and Phase plugin.
+2) Gain and Phase plugin: Statistic Method change now prompts re-analysis.
+3) Gain and Phase plugin: Changed default behaviour of cycle channel button to also cycle visibility. Old frozen visibility behaviour is avaiable through preferences -> Freeze Visibility On Channel Cycle.
+4) 
+Gain and Phase plugin: Fixed incorrect stimulus parameter set being written when Stimulus data is missing text identifier. Stimulus data is still wrong when this info is unavailable from file but changing this would probably break mouse analysis and is unimportant for human analyis.
+5) 
+Excel logging: Added filename column to sinuosoid output.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 25/01/2019
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------
