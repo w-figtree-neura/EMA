@@ -1,5 +1,28 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 21/05/2019
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) Backend - Updated user.lib to match Chris' library. Maintaining this structure via a shared location should reduce issues with source control and VI linkage.
+2) FFT Plugin - Re-linked FFT plugin from previous change to include it in the source control.
+3) Gain & Phase - Added hacky export all option to sinusoid analysis. Exports each whole sinusoid fit individual to an excel doc rather than the mean and std.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
+-- Date: 19/02/2019
+-- Project Author: Chris Todd
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) FFT Plugin - Changed the button that previously read Export TS to read FFT Analysis. This plugin performs a fourier tranform on the time series data.
+   The plugin launches in a new (floating) window and reacts to changes in the main EMA window - i.e. if a new file is loaded, data selection is altered,
+   'Generate Impulse Plot' is clicked, etc, the plugin window will update.
+   The plugin is aware if the displayed data are individual traces or a group mean.
+   The results of the Fourier transform can be written to Excel.
+   If the data are loaded from an LVS file, the name of the LVS file will be read into the plugin, and written into the 'condition' column.
+2) Back end change - added a 'Refresh' boolean to the 'Fill Impulse Plot Data' program state. The state of this boolean is passed to the FFT plugin.
+3) Back end change - added a new program state 'FFT analysis'
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 30/01/2019
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------

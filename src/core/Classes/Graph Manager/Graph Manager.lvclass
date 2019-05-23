@@ -181,7 +181,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 	</Item>
 	<Item Name="Draw Stripe Fill.vi" Type="VI" URL="../Draw Stripe Fill.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&gt;S98"I)%VB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!22X*B='AA47&amp;O97&gt;F=C"P&gt;81!%U!(!!R4&gt;(*J='5A1W^M&lt;X)!!#2!)2Z)&lt;X*J?G^O&gt;'&amp;M)'^S)&amp;:F=H2J9W&amp;M)&amp;.U=GFQ:4]!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!J4&gt;(*J='5A27ZE!!!41!I!$&amp;.U=GFQ:3"4&gt;'&amp;S&gt;!!!-E"Q!"Y!!"=62X*B='AA47&amp;O97&gt;F=CZM&gt;G.M98.T!""(=G&amp;Q;#".97ZB:W6S)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!'!!=!#!!*!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!A!!!!)!!!!#A!!!!A!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!-!!!!!!</Property>
@@ -230,12 +230,12 @@
 	</Item>
 	<Item Name="Redraw Colours.vi" Type="VI" URL="../Redraw Colours.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%B!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&gt;S98"I)%VB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!22X*B='AA47&amp;O97&gt;F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!&amp;R6(=G&amp;Q;#".97ZB:W6S,GRW9WRB=X-!%%&gt;S98"I)%VB&lt;G&amp;H:8)A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">268972048</Property>
 	</Item>
 	<Item Name="Register Graph.vi" Type="VI" URL="../Register Graph.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;K!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!8&amp;5&gt;S98"I)%VB&lt;G&amp;H:8)O&lt;(:D&lt;'&amp;T=Q!22X*B='AA47&amp;O97&gt;F=C"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!&amp;!!I!!"J!1!!#``````````]!"QB*&lt;8"V&lt;(.F=Q!!$!"1!!-!"Q!(!!A!(E"Q!!A!!1!*!"A!!!^(=G&amp;Q;#"3:7:F=G6O9W5!-E"Q!"Y!!"=62X*B='AA47&amp;O97&gt;F=CZM&gt;G.M98.T!""(=G&amp;Q;#".97ZB:W6S)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!I!#Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!EA!!!!!"!!Q!!!!!</Property>
