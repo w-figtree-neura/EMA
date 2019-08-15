@@ -1,5 +1,20 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 15/08/2019
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) HIT Report - Replaced backed with standard event loop/main loop/state machine pattern
+2) HIT Report - Added new Excel export style (a seperate row is exported per canal)
+3) HIT Report - Old Excel export style (single row) is now available as 'legacy' export
+4) HIT Report - Excel export now uses the regular B&V Excel class rather than the EMA specific one
+5) HIT Report - Fixed bug where Std = 0 when there are no impulses. Now Std = NaN in such cases
+6) HIT Report - Added n parameter to front panel and new Excel export option
+7) Backend - Replaced the copy of the Excel class with a reference to userlib
+8) Gain & Phase - Renamed Head Impulse export sheet to 'GP Head Impulse' to stop interference with the HIT Report export
+9) Backend - Added the Excel class to the program data to prevent multiple prompts. Updated usage throughout EMA (TODO: FFT Plugin).
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 21/05/2019
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------

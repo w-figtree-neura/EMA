@@ -4,6 +4,7 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Enum_Report State.ctl" Type="VI" URL="../Enum_Report State.ctl"/>
 	<Item Name="Enum_Statistical Methods Across Impulses.ctl" Type="VI" URL="../Enum_Statistical Methods Across Impulses.ctl"/>
 	<Item Name="Enum_Statistical Methods Within Impulses.ctl" Type="VI" URL="../Enum_Statistical Methods Within Impulses.ctl"/>
 	<Item Name="Gain Zee.vi" Type="VI" URL="../Gain Zee.vi"/>
@@ -12,5 +13,4 @@
 	<Item Name="Generate Report work with Zee.vi" Type="VI" URL="../Generate Report work with Zee.vi"/>
 	<Item Name="Generate Report.vi" Type="VI" URL="../Generate Report.vi"/>
 	<Item Name="Print Panel.vi" Type="VI" URL="../Print Panel.vi"/>
-	<Item Name="Write Report to Excel.vi" Type="VI" URL="../Write Report to Excel.vi"/>
 </Library>
