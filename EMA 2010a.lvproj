@@ -386,6 +386,17 @@
 				<Item Name="Return reference if valid.vi" Type="VI" URL="/&lt;userlib&gt;/Program Control/Return reference if valid.vi"/>
 				<Item Name="Centre window relative to caller.vi" Type="VI" URL="/&lt;userlib&gt;/Front Panel Control/Centre window relative to caller.vi"/>
 				<Item Name="Read Monitor Resolution.vi" Type="VI" URL="/&lt;userlib&gt;/Program Control/Read Monitor Resolution.vi"/>
+				<Item Name="Multiply Quaternions.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Quaternion/Multiply Quaternions.vi"/>
+				<Item Name="Convert Euler Angles To Quaternion _one.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Euler Angles To Quaternion _one.vi"/>
+				<Item Name="Convert Euler Angles To Quaternion _many.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Euler Angles To Quaternion _many.vi"/>
+				<Item Name="Convert Euler Angles To Quaternion.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Euler Angles To Quaternion.vi"/>
+				<Item Name="Convert Quaternion To Euler Angles _one.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Quaternion To Euler Angles _one.vi"/>
+				<Item Name="Convert Quaternion To Euler Angles _many.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Quaternion To Euler Angles _many.vi"/>
+				<Item Name="Convert Quaternion To Euler Angles.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Quaternion To Euler Angles.vi"/>
+				<Item Name="Quaternion Inverse.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Quaternion/Quaternion Inverse.vi"/>
+				<Item Name="Convert Rotation Vector To Quaternion _one.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion _one.vi"/>
+				<Item Name="Convert Rotation Vector To Quaternion _many.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion _many.vi"/>
+				<Item Name="Convert Rotation Vector To Quaternion.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
