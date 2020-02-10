@@ -1,5 +1,15 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------
 -- CHANGE LOG
+-- Date: 11/02/2020
+-- Project Author: William Figtree
+-------------------------------------------------------------------------------------------------------------------------------------------------
+1) G&P Analyser - Added latency measure for impulse type stimulus
+2) VHIT Report - Added peak velocity parameter to exported data
+3) Saccade Analyser - Added Export All which does all export options in one action
+4) Saccade Analyser - Added 'Total Impulses' parameter to 'Summary' and 'Saccades' export so that % impulses with saccades can easily be calculated
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-- CHANGE LOG
 -- Date: 12/09/2019
 -- Project Author: William Figtree
 -------------------------------------------------------------------------------------------------------------------------------------------------

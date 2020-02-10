@@ -397,6 +397,7 @@
 				<Item Name="Convert Rotation Vector To Quaternion _one.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion _one.vi"/>
 				<Item Name="Convert Rotation Vector To Quaternion _many.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion _many.vi"/>
 				<Item Name="Convert Rotation Vector To Quaternion.vi" Type="VI" URL="/&lt;userlib&gt;/Maths/3D Rotation/Conversion/Convert Rotation Vector To Quaternion.vi"/>
+				<Item Name="Remove NaNs.vi" Type="VI" URL="/&lt;userlib&gt;/Array/Remove NaNs.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
